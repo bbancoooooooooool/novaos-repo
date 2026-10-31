@@ -6,7 +6,7 @@ Binary packages for NovaOS, published automatically from the main project by
 On a NovaOS system installed from an older ISO, run once:
 
 ```bash
-curl -fsSL https://bbancoooooooooool.github.io/novaos-repo/setup.sh | sudo sh
+curl -fsSL https://raw.githubusercontent.com/bbancoooooooooool/novaos-repo/main/setup.sh | sudo sh
 ```
 
 After that, updates arrive with `sudo pacman -Syu`.
