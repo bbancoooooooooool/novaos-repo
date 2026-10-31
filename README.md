@@ -1,2 +1,12 @@
-# novaos-repo
-NovaOS package updates (published automatically)
+# NovaOS package repository
+
+Binary packages for NovaOS, published automatically from the main project by
+`.github/workflows/publish-repo.yml`. Do not edit this repository by hand.
+
+On a NovaOS system installed from an older ISO, run once:
+
+```bash
+curl -fsSL https://bbancoooooooooool.github.io/novaos-repo/setup.sh | sudo sh
+```
+
+After that, updates arrive with `sudo pacman -Syu`.
